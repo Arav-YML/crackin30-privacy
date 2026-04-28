@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy – CrackIn30</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, sans-serif;
+      background: #f8f9fa;
+      color: #212529;
+      line-height: 1.75;
+      font-size: 16px;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+      color: #fff;
+      padding: 48px 24px 40px;
+      text-align: center;
+    }
+
+    header .badge {
+      display: inline-block;
+      background: rgba(255,255,255,0.12);
+      border: 1px solid rgba(255,255,255,0.2);
+      border-radius: 50px;
+      padding: 6px 18px;
+      font-size: 13px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+      color: #cbd5e1;
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 10px;
+    }
+
+    header h1 span {
+      color: #f59e0b;
+    }
+
+    header p {
+      font-size: 15px;
+      color: #94a3b8;
+      max-width: 520px;
+      margin: 0 auto;
+    }
+
+    .meta-bar {
+      background: #fff;
+      border-bottom: 1px solid #e2e8f0;
+      padding: 12px 24px;
+      text-align: center;
+      font-size: 13px;
+      color: #64748b;
+    }
+
+    .meta-bar span { margin: 0 12px; }
+
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 24px 80px;
+    }
+
+    .toc {
+      background: #fff;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 24px 28px;
+      margin-bottom: 36px;
+    }
+
+    .toc h2 {
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #64748b;
+      margin-bottom: 14px;
+    }
+
+    .toc ol {
+      padding-left: 20px;
+    }
+
+    .toc ol li {
+      margin-bottom: 6px;
+    }
+
+    .toc ol li a {
+      color: #0f172a;
+      text-decoration: none;
+      font-size: 14.5px;
+      font-weight: 500;
+    }
+
+    .toc ol li a:hover {
+      color: #f59e0b;
+    }
+
+    section {
+      background: #fff;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 32px 36px;
+      margin-bottom: 24px;
+    }
+
+    section h2 {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #0f172a;
+      margin-bottom: 16px;
+      padding-bottom: 12px;
+      border-bottom: 2px solid #f1f5f9;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    section h2 .num {
+      background: #0f172a;
+      color: #f59e0b;
+      width: 28px;
+      height: 28px;
+      border-radius: 6px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 13px;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+
+    section p {
+      color: #374151;
+      margin-bottom: 14px;
+      font-size: 15px;
+    }
+
+    section p:last-child { margin-bottom: 0; }
+
+    section ul, section ol {
+      padding-left: 22px;
+      margin-bottom: 14px;
+    }
+
+    section ul li, section ol li {
+      color: #374151;
+      font-size: 15px;
+      margin-bottom: 8px;
+    }
+
+    .highlight-box {
+      background: #fffbeb;
+      border: 1px solid #fcd34d;
+      border-radius: 8px;
+      padding: 14px 18px;
+      margin: 16px 0;
+      font-size: 14.5px;
+      color: #78350f;
+    }
+
+    .data-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0;
+      font-size: 14px;
+    }
+
+    .data-table th {
+      background: #f1f5f9;
+      color: #374151;
+      font-weight: 600;
+      padding: 10px 14px;
+      text-align: left;
+      border: 1px solid #e2e8f0;
+    }
+
+    .data-table td {
+      padding: 10px 14px;
+      border: 1px solid #e2e8f0;
+      color: #374151;
+      vertical-align: top;
+    }
+
+    .data-table tr:nth-child(even) td { background: #f8fafc; }
+
+    .badge-no {
+      display: inline-block;
+      background: #dcfce7;
+      color: #166534;
+      border-radius: 4px;
+      padding: 2px 8px;
+      font-size: 12px;
+      font-weight: 600;
+    }
+
+    .badge-yes {
+      display: inline-block;
+      background: #fef9c3;
+      color: #854d0e;
+      border-radius: 4px;
+      padding: 2px 8px;
+      font-size: 12px;
+      font-weight: 600;
+    }
+
+    .third-party-card {
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin-bottom: 14px;
+    }
+
+    .third-party-card h3 {
+      font-size: 15px;
+      font-weight: 700;
+      color: #0f172a;
+      margin-bottom: 6px;
+    }
+
+    .third-party-card p {
+      font-size: 14px;
+      color: #64748b;
+      margin-bottom: 6px;
+    }
+
+    .third-party-card a {
+      font-size: 13px;
+      color: #2563eb;
+      text-decoration: none;
+    }
+
+    .third-party-card a:hover { text-decoration: underline; }
+
+    .contact-box {
+      background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+      border-radius: 10px;
+      padding: 24px 28px;
+      color: #e2e8f0;
+    }
+
+    .contact-box h3 {
+      font-size: 16px;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .contact-box p { font-size: 14.5px; color: #94a3b8; margin-bottom: 8px; }
+
+    .contact-box a { color: #f59e0b; text-decoration: none; font-weight: 600; }
+
+    footer {
+      text-align: center;
+      padding: 24px;
+      font-size: 13px;
+      color: #94a3b8;
+      border-top: 1px solid #e2e8f0;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="badge">Legal Document</div>
+  <h1>Privacy Policy — <span>CrackIn30</span></h1>
+  <p>We respect your privacy. This policy explains what data we collect, why, and how it is used.</p>
+</header>
+
+<div class="meta-bar">
+  <span><strong>App:</strong> CrackIn30</span>
+  <span><strong>Package:</strong> com.mathmastery.practice</span>
+  <span><strong>Effective Date:</strong> May 1, 2025</span>
+  <span><strong>Last Updated:</strong> May 1, 2025</span>
+</div>
+
+<div class="container">
+
+  <!-- Table of Contents -->
+  <div class="toc">
+    <h2>Table of Contents</h2>
+    <ol>
+      <li><a href="#overview">Overview</a></li>
+      <li><a href="#information-collected">Information We Collect</a></li>
+      <li><a href="#how-we-use">How We Use Your Information</a></li>
+      <li><a href="#data-storage">Data Storage</a></li>
+      <li><a href="#third-party">Third-Party Services</a></li>
+      <li><a href="#advertising">Advertising</a></li>
+      <li><a href="#children">Children's Privacy</a></li>
+      <li><a href="#your-rights">Your Rights & Choices</a></li>
+      <li><a href="#data-security">Data Security</a></li>
+      <li><a href="#changes">Changes to This Policy</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ol>
+  </div>
+
+  <!-- 1. Overview -->
+  <section id="overview">
+    <h2><span class="num">1</span> Overview</h2>
+    <p>
+      CrackIn30 ("we", "us", or "our") is a math calculation practice application for Android
+      developed by <strong>[YOUR NAME / COMPANY NAME]</strong>. This Privacy Policy describes how
+      CrackIn30 collects, uses, and protects your information when you use our application.
+    </p>
+    <p>
+      By downloading and using CrackIn30, you agree to the practices described in this policy.
+      If you do not agree, please uninstall the application.
+    </p>
+    <div class="highlight-box">
+      CrackIn30 does NOT require account registration. We do NOT collect your name, email
+      address, phone number, or any personally identifiable information directly.
+    </div>
+  </section>
+
+  <!-- 2. Information Collected -->
+  <section id="information-collected">
+    <h2><span class="num">2</span> Information We Collect</h2>
+    <p>We collect the following categories of information:</p>
+
+    <table class="data-table">
+      <thead>
+        <tr>
+          <th>Data Type</th>
+          <th>What It Is</th>
+          <th>Purpose</th>
+          <th>Shared?</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Advertising ID (GAID)</strong></td>
+          <td>Google's resettable device identifier</td>
+          <td>Personalised ads via AdMob; trial usage tracking</td>
+          <td><span class="badge-yes">Ad Partners</span></td>
+        </tr>
+        <tr>
+          <td><strong>Trial Usage Data</strong></td>
+          <td>Whether you have used a free trial for a specific test type</td>
+          <td>Prevent abuse of the free trial system</td>
+          <td><span class="badge-no">Not Shared</span></td>
+        </tr>
+        <tr>
+          <td><strong>Test History</strong></td>
+          <td>Your scores, time taken, accuracy per test</td>
+          <td>Display your personal performance history</td>
+          <td><span class="badge-no">Not Shared</span></td>
+        </tr>
+        <tr>
+          <td><strong>App Preferences</strong></td>
+          <td>Settings, premium status, daily streak</td>
+          <td>Remember your preferences across sessions</td>
+          <td><span class="badge-no">Not Shared</span></td>
+        </tr>
+        <tr>
+          <td><strong>Purchase Information</strong></td>
+          <td>Premium subscription status (via RevenueCat)</td>
+          <td>Unlock premium content for paying users</td>
+          <td><span class="badge-yes">RevenueCat</span></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>We do <strong>NOT</strong> collect:</p>
+    <ul>
+      <li>Your name, email address, or phone number</li>
+      <li>Location or GPS data</li>
+      <li>Camera or microphone data</li>
+      <li>Contacts or calendar data</li>
+      <li>Any biometric data</li>
+    </ul>
+  </section>
+
+  <!-- 3. How We Use -->
+  <section id="how-we-use">
+    <h2><span class="num">3</span> How We Use Your Information</h2>
+    <p>The information we collect is used exclusively for the following purposes:</p>
+    <ul>
+      <li><strong>To provide app functionality</strong> — storing your test history, scores, streaks, and preferences locally on your device.</li>
+      <li><strong>To enforce the trial system</strong> — using your Advertising ID to track whether you have used a free trial for each test type via Firebase, preventing abuse.</li>
+      <li><strong>To serve advertisements</strong> — using your Advertising ID to display relevant ads through Google AdMob. This helps keep the app free for non-premium users.</li>
+      <li><strong>To manage premium subscriptions</strong> — verifying your purchase entitlement via RevenueCat to unlock premium test content.</li>
+      <li><strong>To improve app stability</strong> — anonymised crash and performance data may be collected by third-party SDKs.</li>
+    </ul>
+    <p>We do <strong>not</strong> sell your data. We do <strong>not</strong> use your data for any purpose other than what is described above.</p>
+  </section>
+
+  <!-- 4. Data Storage -->
+  <section id="data-storage">
+    <h2><span class="num">4</span> Data Storage</h2>
+    <p>
+      <strong>On-Device Storage:</strong> Your test history, preferences, daily streak, and premium
+      status are stored locally on your device using IndexedDB and localStorage. This data never
+      leaves your device except as described in this policy.
+    </p>
+    <p>
+      <strong>Cloud Storage (Firebase):</strong> Your Advertising ID and trial usage records
+      (one boolean flag per test type) are stored in Google Firebase Realtime Database. This data
+      is stored under an anonymous identifier (your GAID) and cannot be linked back to your
+      identity without your GAID.
+    </p>
+    <p>
+      <strong>RevenueCat Servers:</strong> Your purchase history and entitlement status are
+      processed and stored by RevenueCat in accordance with their privacy policy.
+    </p>
+    <p>
+      <strong>Data Retention:</strong> Trial usage data in Firebase is retained indefinitely
+      to prevent trial abuse. Local on-device data can be cleared by using the
+      "Reset Data" feature in the app's Settings, or by uninstalling the app.
+    </p>
+  </section>
+
+  <!-- 5. Third-Party Services -->
+  <section id="third-party">
+    <h2><span class="num">5</span> Third-Party Services</h2>
+    <p>CrackIn30 integrates the following third-party services. Each has its own privacy policy:</p>
+
+    <div class="third-party-card">
+      <h3>Google AdMob</h3>
+      <p>Displays banner, interstitial, rewarded, and app open advertisements.</p>
+      <p>May collect: Advertising ID, device information, ad interaction data.</p>
+      <a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy →</a>
+    </div>
+
+    <div class="third-party-card">
+      <h3>RevenueCat</h3>
+      <p>Manages in-app subscriptions and purchase verification for premium features.</p>
+      <p>May collect: Purchase history, Advertising ID, device identifiers.</p>
+      <a href="https://www.revenuecat.com/privacy" target="_blank">RevenueCat Privacy Policy →</a>
+    </div>
+
+    <div class="third-party-card">
+      <h3>Google Firebase Realtime Database</h3>
+      <p>Stores trial usage flags (one per test type) indexed by Advertising ID to prevent free trial abuse.</p>
+      <p>May collect: Advertising ID, IP address during request.</p>
+      <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy Policy →</a>
+    </div>
+
+    <div class="third-party-card">
+      <h3>Google Fonts & MathJax CDN</h3>
+      <p>Loads fonts (Inter, Poppins) and math rendering library from external CDNs.</p>
+      <p>May collect: IP address, browser/device information as part of standard CDN requests.</p>
+      <a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy →</a>
+    </div>
+  </section>
+
+  <!-- 6. Advertising -->
+  <section id="advertising">
+    <h2><span class="num">6</span> Advertising</h2>
+    <p>
+      CrackIn30 is free to use and displays ads to non-premium users via <strong>Google AdMob</strong>.
+      Ads are shown on the home screen, test selection screen, results screen, and history screen.
+      No ads are shown during active tests.
+    </p>
+    <p>
+      AdMob may use your <strong>Advertising ID</strong> to show you personalised advertisements
+      based on your interests. You can opt out of personalised advertising at any time:
+    </p>
+    <ul>
+      <li>Go to your Android device <strong>Settings</strong></li>
+      <li>Tap <strong>Privacy</strong> (or <strong>Google</strong>)</li>
+      <li>Tap <strong>Ads</strong></li>
+      <li>Enable <strong>"Opt out of Ads Personalisation"</strong></li>
+    </ul>
+    <p>
+      <strong>Premium users</strong> who subscribe to CrackIn30 Premium are shown
+      <strong>no advertisements</strong> whatsoever.
+    </p>
+  </section>
+
+  <!-- 7. Children -->
+  <section id="children">
+    <h2><span class="num">7</span> Children's Privacy</h2>
+    <p>
+      CrackIn30 is designed for users aged <strong>13 and above</strong>. The app is targeted
+      at students preparing for competitive examinations and is not directed at children
+      under the age of 13.
+    </p>
+    <p>
+      We do not knowingly collect personal information from children under 13. If you are a
+      parent or guardian and believe your child has provided us with personal information,
+      please contact us at the email address below and we will take steps to delete such information.
+    </p>
+    <p>
+      In compliance with the <strong>Children's Online Privacy Protection Act (COPPA)</strong>
+      and <strong>Google Play's Families Policy</strong>, this app is not classified as a
+      children's app and is not listed in the Family section of Google Play.
+    </p>
+  </section>
+
+  <!-- 8. Your Rights -->
+  <section id="your-rights">
+    <h2><span class="num">8</span> Your Rights &amp; Choices</h2>
+    <p>You have the following rights and choices regarding your data:</p>
+    <ul>
+      <li>
+        <strong>Reset Local Data:</strong> Open the app → Settings → "Reset Data" to permanently
+        delete all locally stored test history, scores, streaks, and preferences from your device.
+      </li>
+      <li>
+        <strong>Opt Out of Personalised Ads:</strong> Use the Android Advertising Settings
+        described in the Advertising section above.
+      </li>
+      <li>
+        <strong>Reset Advertising ID:</strong> In Android Settings → Privacy → Ads → Reset
+        Advertising ID to generate a new anonymous identifier.
+      </li>
+      <li>
+        <strong>Delete Trial Data:</strong> Contact us at the email below to request deletion
+        of your trial usage records from Firebase. We will process your request within 30 days.
+      </li>
+      <li>
+        <strong>Cancel Subscription:</strong> Premium subscriptions can be cancelled at any time
+        through Google Play → Subscriptions.
+      </li>
+    </ul>
+  </section>
+
+  <!-- 9. Data Security -->
+  <section id="data-security">
+    <h2><span class="num">9</span> Data Security</h2>
+    <p>
+      We take reasonable measures to protect the information collected by CrackIn30:
+    </p>
+    <ul>
+      <li>All communications with Firebase and RevenueCat are encrypted using <strong>HTTPS/TLS</strong>.</li>
+      <li>Premium status is protected using obfuscated, XOR-encoded localStorage keys to prevent simple tampering.</li>
+      <li>No sensitive personal data (passwords, financial details) is ever handled directly by CrackIn30 — billing is fully managed by Google Play and RevenueCat.</li>
+    </ul>
+    <p>
+      However, no method of electronic transmission or storage is 100% secure. We cannot
+      guarantee absolute security of any data transmitted to or stored by third-party services.
+    </p>
+  </section>
+
+  <!-- 10. Changes -->
+  <section id="changes">
+    <h2><span class="num">10</span> Changes to This Policy</h2>
+    <p>
+      We may update this Privacy Policy from time to time. When we do, we will revise the
+      "Last Updated" date at the top of this page. If the changes are significant, we may
+      notify you via an in-app notice or an update note in the Google Play Store listing.
+    </p>
+    <p>
+      We encourage you to review this policy periodically. Your continued use of CrackIn30
+      after any changes constitutes your acceptance of the updated policy.
+    </p>
+  </section>
+
+  <!-- 11. Contact -->
+  <section id="contact">
+    <h2><span class="num">11</span> Contact Us</h2>
+    <div class="contact-box">
+      <h3>Have questions about your privacy?</h3>
+      <p>If you have any questions, concerns, or requests regarding this Privacy Policy or your data, please contact us:</p>
+      <p><strong>Developer / Publisher:</strong> [YOUR NAME / COMPANY NAME]</p>
+      <p><strong>Email:</strong> <a href="mailto:your@email.com">your@email.com</a></p>
+      <p><strong>App:</strong> CrackIn30 (com.mathmastery.practice)</p>
+      <p style="margin-top:12px; font-size:13px; color:#64748b;">
+        We will respond to all privacy-related inquiries within <strong style="color:#94a3b8;">30 days</strong>.
+      </p>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  &copy; 2025 CrackIn30 — com.mathmastery.practice — All rights reserved.
+  &nbsp;|&nbsp; This Privacy Policy was last updated on May 1, 2025.
+</footer>
+
+</body>
+</html>
